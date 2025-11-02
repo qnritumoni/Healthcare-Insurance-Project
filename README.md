@@ -1,6 +1,5 @@
 # Healthcare Insurance Charge Analysis-Project
 # Dataset
-https://www.kaggle.com/datasets/mustafaoz158/healthcare-insurance
 "C:\Users\qnrit\OneDrive\Desktop\Internship Project-1\insurance.csv.csv"
 # Data Summary
 This dataset contains information on the relationship between personal attributes (age, gender, BMI, family size, smoking habits), geographic factors, and their impact on medical insurance charges. It can be used to study how these features influence insurance costs and develop predictive models for estimating healthcare expenses.
