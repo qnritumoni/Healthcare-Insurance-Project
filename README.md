@@ -78,6 +78,13 @@ os.chdir('/content')
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
+
+### SQL Queries sample:
+
+# Female smokers only
+
+query= "SELECT * FROM insurance WHERE sex='female' AND smoker='yes';"
+display(pd.read_sql_query(query,conn))
      
 
 ### Power BI Dashboards:
