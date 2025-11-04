@@ -40,6 +40,28 @@ Here-
 ### Project Overview:
 
 <img width="567" height="418" alt="image" src="https://github.com/user-attachments/assets/f1102457-4d32-4896-8ccd-eda1dab01938" />
+### Pivot table analysis:
+
+<img width="618" height="327" alt="image" src="https://github.com/user-attachments/assets/802a9195-db15-4d5f-8338-f497bff4c398" />
+Avg Charge by region
+
+<img width="708" height="427" alt="image" src="https://github.com/user-attachments/assets/c6713f8e-bdb9-4f63-a0aa-28967b400e05" />
+Gender Distribution
+
+<img width="726" height="431" alt="image" src="https://github.com/user-attachments/assets/3d51f73d-7e19-4f62-8531-ff9ba3fc6760" />
+Avg Charge by Smoker
+
+<img width="694" height="427" alt="image" src="https://github.com/user-attachments/assets/a4cb976b-42b1-4354-93b6-80d031a7b411" />
+Avg BMI by gender
+
+<img width="700" height="423" alt="image" src="https://github.com/user-attachments/assets/cf75d4fa-5882-4b11-b31c-4b5b4622e8d3" />
+Smoker by region
+
+### In Excel I used formula like-XLOOKUP,SUM,AVERAGE,COUNTIFS,IF,FILTER,INDEX,MAX,MIN,SUMIFS,COUNT for doing some  calculations.
+
+
+
+
 
 ### Power BI Dashboards:
 ### Dashboard-1: Demographic Overview
