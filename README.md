@@ -66,7 +66,7 @@ In Excel I used formula like-XLOOKUP,SUM,AVERAGE,COUNTIFS,IF,FILTER,INDEX,MAX,MI
 
 ### Python queries tools:
 
-# Import Required Lobraries
+## Import Required Lobraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -81,26 +81,26 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 ### SQL Queries sample:By Jupyter Notebook
 
-# Female smokers only
+## Female smokers only
 
 query= "SELECT * FROM insurance WHERE sex='female' AND smoker='yes';"
 display(pd.read_sql_query(query,conn))
 
-# Avg charges by region
+## Avg charges by region
 
 query="""SELECT region,AVG(charges) AS avg_charge
     FROM insurance
     GROUP BY region;"""
 display(pd.read_sql_query(query,conn))
 
-# Avg charges by smoker
+## Avg charges by smoker
 query="""
 SELECT smoker,AVG(charges) AS avg_charge
 FROM insurance
 GROUP BY smoker"""
 display(pd.read_sql_query(query,conn))
 
-# Age groups and average charges
+## Age groups and average charges
 query = """
 SELECT 
   CASE 
@@ -114,16 +114,16 @@ GROUP BY age_group;
 """
 display(pd.read_sql_query(query, conn))
 
-# Top 5 people with highest charges
+## Top 5 people with highest charges
 query="""SELECT * FROM insurance ORDER BY charges DESC LIMIT 5;"""
 display(pd.read_sql_query(query,conn))
 
-# Count of male vs female
+## Count of male vs female
 query="""SELECT sex, COUNT(*) FROM insurance GROUP BY sex;"""
 display(pd.read_sql_query(query,conn))
 sex	COUNT(*)
 
-# Number of children vs average charges
+## Number of children vs average charges
 query="""SELECT children, AVG(charges) AS avg_charge FROM insurance GROUP BY children;"""
 display(pd.read_sql_query(query,conn))
 children	avg_charge
