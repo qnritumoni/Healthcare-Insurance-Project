@@ -64,9 +64,6 @@ Smoker by region
 In Excel I used formula like-XLOOKUP,SUM,AVERAGE,COUNTIFS,IF,FILTER,INDEX,MAX,MIN,SUMIFS,COUNT for doing some  further calculations.
 
 
-
-
-
 ### Power BI Dashboards:
 ### Dashboard-1: Demographic Overview
 <img width="744" height="423" alt="image" src="https://github.com/user-attachments/assets/be3f6eed-3f8b-4011-8181-61b243387524" />
@@ -205,6 +202,11 @@ Here I find in northwest avg charge is high for top 10% group of insurance payer
 ## Top 10% flag-BMI & No of children
 
 These flags is used to analyze Whether higher BMI or more children correlate with higher insurance charges.
+
+### AH-ha Things:
+
+The “ah-ha” moment in this project was discovering that lifestyle and demographic factors — particularly smoking status and BMI — have a far greater impact on medical charges than age or number of children.
+This insight shows that preventive health measures and awareness programs targeting high-BMI individuals and smokers could significantly reduce overall insurance costs.
 
 ### Insights:
 * Most top 10% patients are smokers
