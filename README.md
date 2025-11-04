@@ -64,6 +64,22 @@ Smoker by region
 In Excel I used formula like-XLOOKUP,SUM,AVERAGE,COUNTIFS,IF,FILTER,INDEX,MAX,MIN,SUMIFS,COUNT for doing some  further calculations.
 
 
+### Python queries tools:
+
+# Import Required Lobraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+import os
+os.chdir('/content')
+!ls
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+
+     
+
 ### Power BI Dashboards:
 ### Dashboard-1: Demographic Overview
 <img width="744" height="423" alt="image" src="https://github.com/user-attachments/assets/be3f6eed-3f8b-4011-8181-61b243387524" />
