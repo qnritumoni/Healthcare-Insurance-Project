@@ -66,7 +66,7 @@ In Excel I used formula like-XLOOKUP,SUM,AVERAGE,COUNTIFS,IF,FILTER,INDEX,MAX,MI
 
 ### Python queries tools:
 
-## Import Required Lobraries
+## Import Required Libraries
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
