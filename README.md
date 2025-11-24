@@ -278,6 +278,10 @@ These flags is used to analyze Whether higher BMI or more children correlate wit
 The “ah-ha” moment in this project was discovering that lifestyle and demographic factors — particularly smoking status and BMI — have a far greater impact on medical charges than age or number of children.
 This insight shows that preventive health measures and awareness programs targeting high-BMI individuals and smokers could significantly reduce overall insurance costs.
 
+Another trouble I was facing at every step of doing the Power BI dashboard is the following dialogue box that was because of varification of command.
+<img width="568" height="325" alt="image" src="https://github.com/user-attachments/assets/fb9778a2-626d-4572-9318-c05a94a8389c" />
+
+
 ### Insights:
 * Most top 10% patients are smokers
 * They often have BMI > 30 (Obese)
